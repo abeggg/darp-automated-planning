@@ -1,0 +1,5 @@
+instance,optimal_cost,validated_actions,assignment
+Facil,7,4,"v1:p1"
+Medio,17,11,"v1:p1,p2,p3"
+Dificil,11,18,"v1:p1,p2; v2:p3,p4,p5"
+Muito dificil,48,30,"v3:p1,p2,p3,p4,p5,p6,p7,p8"

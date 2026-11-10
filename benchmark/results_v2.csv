@@ -1,0 +1,17 @@
+instance,algorithm,solved,actions,cost,expanded,generated,time_s
+Facil,BFS,True,4,7,7,14,0.000057
+Facil,UCS,True,4,7,7,14,0.000117
+Facil,A*,True,4,7,5,10,0.000204
+Facil,GBFS,True,4,7,5,10,0.000061
+Medio,BFS,True,10,20,124,539,0.001004
+Medio,UCS,True,11,17,108,472,0.002871
+Medio,A*,True,11,17,26,114,0.001059
+Medio,GBFS,True,11,21,19,81,0.000711
+Dificil,BFS,True,17,16,26798,335519,0.586452
+Dificil,UCS,True,17,11,3434,43773,0.505252
+Dificil,A*,True,17,11,820,10613,0.173484
+Dificil,GBFS,True,19,19,66,839,0.020888
+Muito dificil,BFS,False,,,144142,3688265,5.000000
+Muito dificil,UCS,False,,,5067,127136,5.000000
+Muito dificil,A*,False,,,4969,124752,5.000000
+Muito dificil,GBFS,False,,,5931,144791,5.000000

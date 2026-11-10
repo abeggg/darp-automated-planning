@@ -1,0 +1,21 @@
+name: Project checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      MPLBACKEND: Agg
+      SDL_VIDEODRIVER: dummy
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements-planner.txt
+      - run: python scripts/check_plans.py
+      - run: cd benchmark && python exact_oracle.py
+      - run: python -m pyperplan -H hff -s gbf pddl/darp-strips.pddl pddl/medium-strips.pddl

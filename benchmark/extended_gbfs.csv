@@ -1,0 +1,2 @@
+instance,algorithm,timeout_s,solved,actions,cost,expanded,generated,time_s
+Muito dificil,GBFS,60,true,38,78,29895,730294,16.383760

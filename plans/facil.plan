@@ -1,0 +1,4 @@
+(drive v1 l0 l1)
+(pickup p1 v1 l1 s1_1)
+(drive v1 l1 l2)
+(dropoff p1 v1 l2 s1_1)

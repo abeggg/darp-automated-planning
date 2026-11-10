@@ -1,0 +1,5 @@
+instance,valid,cost,actions
+Facil,true,7,4
+Medio,true,17,11
+Dificil,true,11,18
+Muito dificil,true,48,30
